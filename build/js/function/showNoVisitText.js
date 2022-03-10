@@ -1,0 +1,1 @@
+export default function showNoVisitText(e){const t=document.createElement("p");t.innerText="Пока что нет визитов(",t.classList.add("text-danger"),e.append(t)}

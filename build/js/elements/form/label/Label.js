@@ -1,0 +1,1 @@
+import CreateHTMLElement from"../../CreateHTMLElement.js";export default class Label extends CreateHTMLElement{constructor({className:t,id:e,attribut:a="",text:r=""}){super(t,e),this.attribut=a,this.text=r}render(t,e){this.createLabel(),this.addElement(t,e)}createLabel(){this.createElement({name:"label",attributes:{for:this.attribut,innerHTML:this.text}})}}

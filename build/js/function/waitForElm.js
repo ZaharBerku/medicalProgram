@@ -1,0 +1,1 @@
+export default function waitForElm(e){return new Promise((t=>{if(document.querySelector(e))return t(document.querySelector(e));const r=new MutationObserver((o=>{document.querySelector(e)&&(t(document.querySelector(e)),r.disconnect())}));r.observe(document.body,{childList:!0,subtree:!0})}))}

@@ -1,0 +1,17 @@
+node_modules
+
+Visual Studio Code # 
+.vscodesettings.json
+!.vscodesettings.json 
+!.vscodetasks.json 
+!.vscodelaunch.json 
+!.vscodeextensions.json 
+.history.vscodesettings.json
+
+.idea
+.vscode
+.DS_store
+*.iml
+*.xml
+
+.prettierrc.json

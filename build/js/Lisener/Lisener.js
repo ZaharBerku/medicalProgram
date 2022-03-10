@@ -1,0 +1,1 @@
+export default class Lisener{static render(e,t,r){document.querySelector(e).addEventListener(t,(e=>r(e.target,e)))}}
