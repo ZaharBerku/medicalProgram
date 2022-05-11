@@ -1,6 +1,8 @@
 In this project took part Olga Munka, Sergey Chernyuk and Nazar Dubovyk.
 web-site - http:
 
+Link on page - https://zaharberku.github.io/medicalProgram/
+
 email : user@gmail.com
 password : 1111
 
